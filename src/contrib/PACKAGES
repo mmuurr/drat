@@ -1,0 +1,7 @@
+Package: RPostgreSQL
+Version: 0.6-3
+Depends: R (>= 2.9.0), methods, DBI (>= 0.3)
+License: GPL-2 | file LICENSE
+MD5sum: 8cdafe5aa3c6e880bd1f42feda861136
+NeedsCompilation: yes
+
