@@ -1,7 +1,32 @@
+Package: awscli
+Version: 1.0.0
+Depends: R (>= 3.3.3), methods
+Imports: zzz, futile.logger, magrittr, purrr, sys, stringr, jsonlite,
+        tibble
+License: MIT + file LICENSE
+MD5sum: 41054f9c20b1e2820ea7be12be25c771
+NeedsCompilation: no
+
 Package: RPostgreSQL
 Version: 0.6-3
 Depends: R (>= 2.9.0), methods, DBI (>= 0.3)
 License: GPL-2 | file LICENSE
 MD5sum: 8cdafe5aa3c6e880bd1f42feda861136
 NeedsCompilation: yes
+
+Package: s3io
+Version: 1.0.1
+Depends: R (>= 3.3.3)
+Imports: futile.logger, awscli
+Suggests: readr
+License: MIT + file LICENSE
+MD5sum: 8a26ac098a6661ccf9a468c447ce6435
+NeedsCompilation: no
+
+Package: zzz
+Version: 1.0.0
+Depends: R (>= 3.3.3)
+License: MIT + file LICENSE
+MD5sum: b5ddd10880e433913d82c6d4fde7d5c0
+NeedsCompilation: no
 
