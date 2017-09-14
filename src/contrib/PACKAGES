@@ -8,10 +8,10 @@ MD5sum: 41054f9c20b1e2820ea7be12be25c771
 NeedsCompilation: no
 
 Package: RPostgreSQL
-Version: 0.6-3
+Version: 1000.6-2
 Depends: R (>= 2.9.0), methods, DBI (>= 0.3)
 License: GPL-2 | file LICENSE
-MD5sum: 8cdafe5aa3c6e880bd1f42feda861136
+MD5sum: fada510ca105f5b591ce5a1d7528e4ac
 NeedsCompilation: yes
 
 Package: s3io
