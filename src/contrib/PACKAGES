@@ -8,12 +8,12 @@ MD5sum: 41054f9c20b1e2820ea7be12be25c771
 NeedsCompilation: no
 
 Package: DBIplus
-Version: 1.0.1
+Version: 1.1.0
 Depends: R (>= 3.0.0), methods
-Imports: DBI, zzz, futile.logger, readr
+Imports: DBI, zzz, futile.logger, readr, purrr
 Suggests: tibble
 License: MIT + file LICENSE
-MD5sum: 80ced469e3e3f04ac69d94c192ea1a65
+MD5sum: 9b77db42065e299331bfd15e01fbbc1f
 NeedsCompilation: no
 
 Package: RPostgreSQL
