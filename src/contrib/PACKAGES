@@ -7,6 +7,15 @@ License: MIT + file LICENSE
 MD5sum: 41054f9c20b1e2820ea7be12be25c771
 NeedsCompilation: no
 
+Package: DBIplus
+Version: 2.1.0
+Depends: R (>= 3.0.0), methods
+Imports: DBI, zzz, futile.logger, readr, purrr, checkmate
+Suggests: tibble
+License: MIT + file LICENSE
+MD5sum: e76d205a88d858c134d055436306d391
+NeedsCompilation: no
+
 Package: RPostgreSQL
 Version: 1000.6-2
 Depends: R (>= 2.9.0), methods, DBI (>= 0.3)
@@ -29,4 +38,3 @@ Depends: R (>= 3.3.3)
 License: MIT + file LICENSE
 MD5sum: 6ff1ad714b3ddefc3b4ee490177c005f
 NeedsCompilation: no
-
