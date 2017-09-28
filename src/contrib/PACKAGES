@@ -33,9 +33,9 @@ MD5sum: 8a26ac098a6661ccf9a468c447ce6435
 NeedsCompilation: no
 
 Package: zzz
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 3.3.3)
 License: MIT + file LICENSE
-MD5sum: e4a0a6450d18f64f952c6a0364407607
+MD5sum: 769b0769b5fe497e7955ee81dd507cc7
 NeedsCompilation: no
 
