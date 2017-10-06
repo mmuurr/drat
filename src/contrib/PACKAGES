@@ -1,10 +1,10 @@
 Package: awscli
-Version: 1.0.0
+Version: 1.1.0
 Depends: R (>= 3.3.3), methods
 Imports: zzz, futile.logger, magrittr, purrr, sys, stringr, jsonlite,
         tibble
 License: MIT + file LICENSE
-MD5sum: 41054f9c20b1e2820ea7be12be25c771
+MD5sum: 21f45049411fbf9a04cfaf10eda7f1b7
 NeedsCompilation: no
 
 Package: DBIplus
