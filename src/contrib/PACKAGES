@@ -36,6 +36,6 @@ Package: zzz
 Version: 1.1.1
 Depends: R (>= 3.3.3)
 License: MIT + file LICENSE
-MD5sum: 769b0769b5fe497e7955ee81dd507cc7
+MD5sum: f79a4f4798b522e5d9bfe658a282b835
 NeedsCompilation: no
 
