@@ -16,6 +16,16 @@ License: MIT + file LICENSE
 MD5sum: 2325690ed48da23db8800da1b4df82ad
 NeedsCompilation: no
 
+Package: redshift
+Version: 1.0.0
+Depends: R (>= 3.3.3), methods
+Imports: DBI, magrittr, lubridate, glue, stringr, s3io, awscli, uuid,
+        zzz, futile.logger, dplyr, readr, tibble
+Suggests: DBIplus
+License: file LICENSE
+MD5sum: 599d21dbe52f559d8ef3b3d2017a925f
+NeedsCompilation: no
+
 Package: RPostgreSQL
 Version: 1000.6-2
 Depends: R (>= 2.9.0), methods, DBI (>= 0.3)
