@@ -16,6 +16,15 @@ License: MIT + file LICENSE
 MD5sum: 2325690ed48da23db8800da1b4df82ad
 NeedsCompilation: no
 
+Package: DBIxx
+Version: 0.0.1
+Depends: R (>= 3.3.3)
+Imports: methods, DBI, sqlparse, purrr
+Suggests: tibble, data.table
+License: MIT + file LICENSE
+MD5sum: 0a99212c22f2b66818113c0cf1170b08
+NeedsCompilation: no
+
 Package: redshift
 Version: 1.0.0
 Depends: R (>= 3.3.3), methods
