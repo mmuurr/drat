@@ -47,7 +47,7 @@ Version: 0.2.4
 Depends: R (>= 3.0.0), methods
 Imports: reticulate
 License: MIT + file LICENSE
-MD5sum: cbb51e805103bc9b8c0915bbcf898525
+MD5sum: db7c2525beb963aee96d7313477eb690
 NeedsCompilation: no
 
 Package: zzz
