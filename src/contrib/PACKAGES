@@ -52,11 +52,11 @@ MD5sum: 8a26ac098a6661ccf9a468c447ce6435
 NeedsCompilation: no
 
 Package: sqlparse
-Version: 0.2.4
+Version: 0.2.4-1
 Depends: R (>= 3.0.0), methods
 Imports: reticulate
 License: MIT + file LICENSE
-MD5sum: db7c2525beb963aee96d7313477eb690
+MD5sum: e8d978878f7c7d5fc563fa34ecebf20b
 NeedsCompilation: no
 
 Package: zzz
