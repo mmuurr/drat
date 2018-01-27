@@ -17,12 +17,12 @@ MD5sum: 2325690ed48da23db8800da1b4df82ad
 NeedsCompilation: no
 
 Package: DBIxx
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.3.3)
 Imports: methods, DBI, sqlparse, purrr, readr
 Suggests: tibble
 License: MIT + file LICENSE
-MD5sum: 44e49e6e8bbe156db15a5cfc5669615c
+MD5sum: a08d374765319c21d0e07bceb0df028b
 NeedsCompilation: no
 
 Package: redshift
