@@ -1,10 +1,10 @@
 Package: awscli
-Version: 1.2.0
+Version: 1.3.0
 Depends: R (>= 3.3.3), methods
 Imports: zzz, futile.logger, magrittr, purrr, sys, stringr, jsonlite,
         tibble
 License: MIT + file LICENSE
-MD5sum: 21b00068a96fdeb0625819a0339440cc
+MD5sum: afc906be4daec66802ccd8b2da1a5328
 NeedsCompilation: no
 
 Package: DBIplus
@@ -43,12 +43,12 @@ MD5sum: fada510ca105f5b591ce5a1d7528e4ac
 NeedsCompilation: yes
 
 Package: s3io
-Version: 1.0.1
+Version: 1.2.0
 Depends: R (>= 3.3.3)
 Imports: futile.logger, awscli
 Suggests: readr
 License: MIT + file LICENSE
-MD5sum: 8a26ac098a6661ccf9a468c447ce6435
+MD5sum: fa52fcac0cf9c50b3b3be4fd887ed5f3
 NeedsCompilation: no
 
 Package: sqlparse
