@@ -63,5 +63,5 @@ Package: zzz
 Version: 1.2.1
 Depends: R (>= 3.3.3)
 License: MIT + file LICENSE
-MD5sum: 6c92403fc945c25024fcdd38f0a6549a
+MD5sum: deab0aeb35bb177c81778a35b3aebfdc
 NeedsCompilation: no
