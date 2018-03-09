@@ -26,13 +26,13 @@ MD5sum: 56b918b5f6e2d8c6589e5d96d02860cc
 NeedsCompilation: no
 
 Package: redshift
-Version: 1.1.0
+Version: 1.1.1
 Depends: R (>= 3.3.3), methods
 Imports: DBI, magrittr, lubridate, glue, stringr, s3io, awscli, uuid,
         zzz, futile.logger, dplyr, readr, tibble
 Suggests: DBIplus
 License: file LICENSE
-MD5sum: c4cf8a5564055013dd4d5cef4faa6559
+MD5sum: 96afed0d31552072e6157164f6552530
 NeedsCompilation: no
 
 Package: RPostgreSQL
