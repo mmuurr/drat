@@ -1,10 +1,46 @@
 Package: awscli
+Version: 1.2.0
+Depends: R (>= 3.3.3), methods
+Imports: zzz, futile.logger, magrittr, purrr, sys, stringr, jsonlite,
+        tibble
+License: MIT + file LICENSE
+MD5sum: 21b00068a96fdeb0625819a0339440cc
+NeedsCompilation: no
+
+Package: awscli
+Version: 1.3.0
+Depends: R (>= 3.3.3), methods
+Imports: zzz, futile.logger, magrittr, purrr, sys, stringr, jsonlite,
+        tibble
+License: MIT + file LICENSE
+MD5sum: afc906be4daec66802ccd8b2da1a5328
+NeedsCompilation: no
+
+Package: awscli
+Version: 1.3.1
+Depends: R (>= 3.3.3), methods
+Imports: zzz, futile.logger, magrittr, purrr, sys, stringr, jsonlite,
+        tibble
+License: MIT + file LICENSE
+MD5sum: 92a08c0050a4beb59e06e07e482254c7
+NeedsCompilation: no
+
+Package: awscli
 Version: 1.3.2
 Depends: R (>= 3.3.3), methods
 Imports: zzz, futile.logger, magrittr, purrr, sys, stringr, jsonlite,
         tibble
 License: MIT + file LICENSE
 MD5sum: d005009d043467b11addc1ddec62d99e
+NeedsCompilation: no
+
+Package: awscli
+Version: 1.6.0
+Depends: R (>= 3.3.3), methods
+Imports: zzz, futile.logger, magrittr, purrr, sys, stringr, jsonlite,
+        tibble
+License: MIT + file LICENSE
+MD5sum: 06bef5d49a32acf5ff6ceb3a280bff42
 NeedsCompilation: no
 
 Package: DBIplus
@@ -17,12 +53,77 @@ MD5sum: 2325690ed48da23db8800da1b4df82ad
 NeedsCompilation: no
 
 Package: DBIxx
+Version: 0.0.1
+Depends: R (>= 3.3.3)
+Imports: methods, DBI, sqlparse, purrr
+Suggests: tibble, data.table
+License: MIT + file LICENSE
+MD5sum: 0a99212c22f2b66818113c0cf1170b08
+NeedsCompilation: no
+
+Package: DBIxx
+Version: 1.0.0
+Depends: R (>= 3.3.3)
+Imports: methods, DBI, sqlparse, purrr, readr
+Suggests: tibble
+License: MIT + file LICENSE
+MD5sum: c696784c96a7d5f5e5d4f1e3a7177beb
+NeedsCompilation: no
+
+Package: DBIxx
+Version: 1.0.1
+Depends: R (>= 3.3.3)
+Imports: methods, DBI, sqlparse, purrr, readr
+Suggests: tibble
+License: MIT + file LICENSE
+MD5sum: 44e49e6e8bbe156db15a5cfc5669615c
+NeedsCompilation: no
+
+Package: DBIxx
+Version: 1.0.2
+Depends: R (>= 3.3.3)
+Imports: methods, DBI, sqlparse, purrr, readr
+Suggests: tibble
+License: MIT + file LICENSE
+MD5sum: a08d374765319c21d0e07bceb0df028b
+NeedsCompilation: no
+
+Package: DBIxx
+Version: 1.0.3
+Depends: R (>= 3.3.3)
+Imports: methods, DBI, sqlparse, purrr, readr
+Suggests: tibble
+License: MIT + file LICENSE
+MD5sum: d93f5a5bc178a3875d74171488fcf05e
+NeedsCompilation: no
+
+Package: DBIxx
 Version: 1.0.4
 Depends: R (>= 3.3.3)
 Imports: methods, DBI, sqlparse, purrr, readr, tibble, magrittr
 Suggests: tibble
 License: MIT + file LICENSE
 MD5sum: c86d2f52b6fc4ae1cc315fa104f6a9c6
+NeedsCompilation: no
+
+Package: redshift
+Version: 1.0.0
+Depends: R (>= 3.3.3), methods
+Imports: DBI, magrittr, lubridate, glue, stringr, s3io, awscli, uuid,
+        zzz, futile.logger, dplyr, readr, tibble
+Suggests: DBIplus
+License: file LICENSE
+MD5sum: 599d21dbe52f559d8ef3b3d2017a925f
+NeedsCompilation: no
+
+Package: redshift
+Version: 1.1.0
+Depends: R (>= 3.3.3), methods
+Imports: DBI, magrittr, lubridate, glue, stringr, s3io, awscli, uuid,
+        zzz, futile.logger, dplyr, readr, tibble
+Suggests: DBIplus
+License: file LICENSE
+MD5sum: c4cf8a5564055013dd4d5cef4faa6559
 NeedsCompilation: no
 
 Package: redshift
@@ -43,6 +144,24 @@ MD5sum: fada510ca105f5b591ce5a1d7528e4ac
 NeedsCompilation: yes
 
 Package: s3io
+Version: 1.0.1
+Depends: R (>= 3.3.3)
+Imports: futile.logger, awscli
+Suggests: readr
+License: MIT + file LICENSE
+MD5sum: 8a26ac098a6661ccf9a468c447ce6435
+NeedsCompilation: no
+
+Package: s3io
+Version: 1.2.0
+Depends: R (>= 3.3.3)
+Imports: futile.logger, awscli
+Suggests: readr
+License: MIT + file LICENSE
+MD5sum: fa52fcac0cf9c50b3b3be4fd887ed5f3
+NeedsCompilation: no
+
+Package: s3io
 Version: 1.2.1
 Depends: R (>= 3.3.3)
 Imports: futile.logger, awscli
@@ -59,9 +178,38 @@ License: MIT + file LICENSE
 MD5sum: 213f2422346b843a1cd961f131aef9d5
 NeedsCompilation: no
 
+Package: sqlparse
+Version: 0.2.4
+Depends: R (>= 3.0.0), methods
+Imports: reticulate
+License: MIT + file LICENSE
+MD5sum: db7c2525beb963aee96d7313477eb690
+NeedsCompilation: no
+
+Package: zzz
+Version: 1.1.1
+Depends: R (>= 3.3.3)
+License: MIT + file LICENSE
+MD5sum: f79a4f4798b522e5d9bfe658a282b835
+NeedsCompilation: no
+
+Package: zzz
+Version: 1.2.1
+Depends: R (>= 3.3.3)
+License: MIT + file LICENSE
+MD5sum: deab0aeb35bb177c81778a35b3aebfdc
+NeedsCompilation: no
+
 Package: zzz
 Version: 1.2.2
 Depends: R (>= 3.3.3)
 License: MIT + file LICENSE
 MD5sum: b162af0241f29315f610b92e8b56532e
+NeedsCompilation: no
+
+Package: zzz
+Version: 1.2
+Depends: R (>= 3.3.3)
+License: MIT + file LICENSE
+MD5sum: 930e532ae04502d370130b7598ec6755
 NeedsCompilation: no
