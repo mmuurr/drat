@@ -136,6 +136,16 @@ License: file LICENSE
 MD5sum: 058747ab661aceeba91748bc36094c09
 NeedsCompilation: no
 
+Package: redshift
+Version: 2.0.0
+Depends: R (>= 3.3.3), methods
+Imports: dplyr (>= 1.0.6), magrittr (>= 2.0.1), zzz (>= 1.2.2), glue
+        (>= 1.4.2), DBI (>= 1.1.0), lubridate (>= 1.7.10), purrr (>=
+        0.3.4), s3io (>= 1.2.1), awscli (>= 1.6.0), readr (>= 1.4.0)
+License: file LICENSE
+MD5sum: d929ed940d1c6a904077547bb48b2394
+NeedsCompilation: no
+
 Package: RPostgreSQL
 Version: 1000.6-2
 Depends: R (>= 2.9.0), methods, DBI (>= 0.3)
