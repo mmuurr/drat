@@ -53,6 +53,16 @@ License: MIT + file LICENSE
 MD5sum: 238b83d6622ddce15952ec0c507e1536
 NeedsCompilation: no
 
+Package: awscli2
+Version: 0.0.0.9001
+Imports: rlang (>= 0.4.10), processx (>= 3.4.5), dplyr (>= 1.0.6),
+        purrr (>= 0.3.4), vctrs (>= 0.3.8), jsonlite (>= 1.7.2),
+        stringr (>= 1.4.0), magrittr (>= 2.0.1)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: c52e24bc18cb35ce197626af101c4804
+NeedsCompilation: no
+
 Package: DBIplus
 Version: 2.1.1
 Depends: R (>= 3.0.0), methods
