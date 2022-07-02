@@ -83,6 +83,16 @@ License: MIT + file LICENSE
 MD5sum: a454161bdff231bbe020b7883e10f35e
 NeedsCompilation: no
 
+Package: awscli2
+Version: 0.0.2
+Imports: rlang (>= 1.0.2), processx (>= 3.4.5), dplyr (>= 1.0.8), purrr
+        (>= 0.3.4), vctrs (>= 0.3.8), jsonlite (>= 1.7.2), stringr (>=
+        1.4.0), magrittr (>= 2.0.1)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 70fe7ea996948e912dfb902f037c5b72
+NeedsCompilation: no
+
 Package: DBIplus
 Version: 2.1.1
 Depends: R (>= 3.0.0), methods
@@ -218,6 +228,15 @@ Imports: futile.logger, awscli
 Suggests: readr
 License: MIT + file LICENSE
 MD5sum: 3e5c475650cc8c3e4343c99a44997054
+NeedsCompilation: no
+
+Package: s3io
+Version: 2.0.0
+Depends: R (>= 3.3.3)
+Imports: awscli2 (>= 0.0.2), fs (>= 1.5.0)
+Suggests: readr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 24db7bec9c64a35bb00de5936664916c
 NeedsCompilation: no
 
 Package: sqlparse
