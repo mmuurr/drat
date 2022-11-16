@@ -101,7 +101,7 @@ Imports: rlang (>= 1.0.4), processx (>= 3.4.5), dplyr (>= 1.0.8), purrr
         2.0.0)
 Suggests: testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: 9a0d6083121a1c7fb9a13cf32fee7d05
+MD5sum: 923663b7e424270439a9b224f9cb3813
 NeedsCompilation: no
 
 Package: DBIplus
