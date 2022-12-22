@@ -281,6 +281,15 @@ License: MIT + file LICENSE
 MD5sum: a74f1e2f1ae7f9e2e6cdd675d6331ef2
 NeedsCompilation: no
 
+Package: s3io
+Version: 2.1.0
+Depends: R (>= 3.3.3)
+Imports: awscli2 (>= 0.0.3), fs (>= 1.5.2), rlang (>= 1.0.6)
+Suggests: readr, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 303878844f4f6b865ca577de2dcf3f7e
+NeedsCompilation: no
+
 Package: sqlparse
 Version: 0.2.4-1
 Depends: R (>= 3.0.0), methods
