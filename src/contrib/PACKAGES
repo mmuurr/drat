@@ -189,6 +189,14 @@ License: MIT + file LICENSE
 MD5sum: c86d2f52b6fc4ae1cc315fa104f6a9c6
 NeedsCompilation: no
 
+Package: murlib.core
+Version: 0.0.0.9001
+Imports: base (>= 4.2.2), memoise (>= 2.0.1), stats (>= 4.2.2)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 18647bff2ba3cb74060efa70c3e40ad4
+NeedsCompilation: no
+
 Package: redshift
 Version: 1.0.0
 Depends: R (>= 3.3.3), methods
