@@ -189,12 +189,37 @@ License: MIT + file LICENSE
 MD5sum: c86d2f52b6fc4ae1cc315fa104f6a9c6
 NeedsCompilation: no
 
+Package: murlib.cfmatrix
+Version: 0.0.0.9000
+Imports: base (>= 4.2.2), Matrix (>= 1.5.1)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 7f33c17d7ae16d171e9924052ec1ec57
+NeedsCompilation: no
+
 Package: murlib.core
 Version: 0.0.0.9001
 Imports: base (>= 4.2.2), memoise (>= 2.0.1), stats (>= 4.2.2)
 Suggests: testthat (>= 3.0.0)
 License: MIT + file LICENSE
 MD5sum: 18647bff2ba3cb74060efa70c3e40ad4
+NeedsCompilation: no
+
+Package: murlib.core
+Version: 0.0.0.9003
+Imports: base (>= 4.2.2), stats (>= 4.2.2)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 0e42d0873e98e50a48be5f553a2b2cf7
+NeedsCompilation: no
+
+Package: murlib.json
+Version: 0.0.0.9000
+Imports: checkmate (>= 2.1.0), jsonlite (>= 1.8.3), murlib.core (>=
+        0.0.0.9003), rlang (>= 1.1.0)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 4e8e0f033655fdd7adfdd0ff614bcfbf
 NeedsCompilation: no
 
 Package: redshift
