@@ -237,6 +237,14 @@ License: MIT + file LICENSE
 MD5sum: ffc7b1f1ec7533e757c5252d23927a4d
 NeedsCompilation: no
 
+Package: murlib.core
+Version: 0.0.0.9007
+Imports: base (>= 4.2.2), stats (>= 4.2.2)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: bc2e70e75f0f6002aad21a1d0189173c
+NeedsCompilation: no
+
 Package: murlib.json
 Version: 0.0.0.9000
 Imports: checkmate (>= 2.1.0), jsonlite (>= 1.8.3), murlib.core (>=
