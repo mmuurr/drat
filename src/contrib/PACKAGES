@@ -197,6 +197,14 @@ License: MIT + file LICENSE
 MD5sum: 7f33c17d7ae16d171e9924052ec1ec57
 NeedsCompilation: no
 
+Package: murlib.cfmatrix
+Version: 0.0.0.9001
+Imports: base (>= 4.2.2), Matrix (>= 1.5.1), parallel (>= 4.2.2)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 2b227819cde10789d7fde253353adf67
+NeedsCompilation: no
+
 Package: murlib.core
 Version: 0.0.0.9001
 Imports: base (>= 4.2.2), memoise (>= 2.0.1), stats (>= 4.2.2)
