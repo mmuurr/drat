@@ -304,6 +304,14 @@ License: MIT + file LICENSE
 MD5sum: 43d49c45824ea6195eaa33df9b66f5e1
 NeedsCompilation: no
 
+Package: murlib.core
+Version: 0.2.0
+Imports: base (>= 4.3.2), stats (>= 4.3.2)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 46c482bade241ced7f3dd70c5785ef41
+NeedsCompilation: no
+
 Package: murlib.infix
 Version: 0.0.0.9000
 Imports: murlib.core (>= 0.0.0.9008), rlang (>= 1.1.1), vctrs (>=
