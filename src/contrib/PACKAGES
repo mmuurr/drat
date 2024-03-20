@@ -469,6 +469,16 @@ License: MIT + file LICENSE
 MD5sum: 303878844f4f6b865ca577de2dcf3f7e
 NeedsCompilation: no
 
+Package: splint
+Version: 0.1.0
+Imports: checkmate (>= 2.3.1), dplyr (>= 1.1.4), murlib.core (>=
+        0.3.0), murlib.infix (>= 0.1.0), purrr (>= 1.0.2), rlang (>=
+        1.1.2), tibble (>= 3.2.1), vctrs (>= 0.6.5)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 4adea3d13889f1f4d006f8390a01ceb7
+NeedsCompilation: no
+
 Package: sqlparse
 Version: 0.2.4-1
 Depends: R (>= 3.0.0), methods
