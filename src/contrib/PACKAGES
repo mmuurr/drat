@@ -438,6 +438,15 @@ License: MIT + file LICENSE
 MD5sum: 4e8e0f033655fdd7adfdd0ff614bcfbf
 NeedsCompilation: no
 
+Package: murlib.tidyverse
+Version: 1.0.0
+Imports: checkmate (>= 2.3.2), dplyr (>= 1.1.4), lifecycle (>= 1.0.4),
+        purrr (>= 1.0.4)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 9fda10d5036cafbac5a494ec841366c9
+NeedsCompilation: no
+
 Package: redshift
 Version: 1.0.0
 Depends: R (>= 3.3.3), methods
