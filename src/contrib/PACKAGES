@@ -382,10 +382,10 @@ NeedsCompilation: no
 
 Package: murlib.core
 Version: 1.2.0
-Imports: base (>= 4.0.0), stats (>= 4.0.0)
+Imports: base (>= 4.4.3), stats (>= 4.4.3)
 Suggests: testthat (>= 3.0.0)
 License: MIT + file LICENSE
-MD5sum: edd8045aa261e30e1e9d48b44fec7b01
+MD5sum: cfdb6a29555965a8c025035a7d4139a9
 NeedsCompilation: no
 
 Package: murlib.data
