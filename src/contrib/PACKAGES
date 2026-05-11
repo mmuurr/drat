@@ -472,6 +472,15 @@ License: MIT + file LICENSE
 MD5sum: ddcc2ba024b80a85b8836619187479e5
 NeedsCompilation: no
 
+Package: murlib.lgr
+Version: 0.0.0.9003
+Imports: checkmate (>= 2.3.2), lgr (>= 0.4.4), murlib.core (>= 1.2.0),
+        R6 (>= 2.6.1), rlang (>= 1.1.7), stringr (>= 1.5.1)
+Suggests: testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: 7800395043b47ab98305bbd3a8447380
+NeedsCompilation: no
+
 Package: murlib.tidyverse
 Version: 1.0.0
 Imports: checkmate (>= 2.3.2), dplyr (>= 1.1.4), lifecycle (>= 1.0.4),
